@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jdbc.example</groupId>
-    <artifactId>jdbc-test</artifactId>
+    <artifactId>jdbc-transactions-examples</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>jdbc-test</name>
+    <name>jdbc-transactions-examples</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -15,5 +15,10 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
     </dependencies>
 </project>
