@@ -1,0 +1,9 @@
+CREATE TABLE `games` (
+  `id` int NOT NULL,
+  `name` varchar(45) NOT NULL,
+  `description` longtext NOT NULL,
+  `release_date` date NOT NULL,
+  `on_sale` bit(1) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+)
